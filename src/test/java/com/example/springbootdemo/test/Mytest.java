@@ -1,5 +1,7 @@
 package com.example.springbootdemo.test;
 
-public class Mytest {
+import java.util.LinkedHashMap;
 
+public class Mytest {
+    LinkedHashMap linkedHashMap = new LinkedHashMap();
 }

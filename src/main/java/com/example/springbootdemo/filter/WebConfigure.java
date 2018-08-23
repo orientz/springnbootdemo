@@ -9,7 +9,9 @@ import javax.servlet.*;
 import javax.servlet.http.HttpServletRequest;
 import java.io.IOException;
 
+/*
 @Configuration
+*/
 public class WebConfigure {
     @Bean
     public RemoteIpFilter remoteIpFilter() {

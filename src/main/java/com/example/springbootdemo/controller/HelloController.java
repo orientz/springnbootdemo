@@ -16,8 +16,7 @@ public class HelloController {
     private ActorService actorService;
     @RequestMapping("/hello")
     public String hello(){
-        Actor actor = actorService.getInfo();
-        System.out.println(actor.getFirstName());
+
         return "hello";
     }
 }
